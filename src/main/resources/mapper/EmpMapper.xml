@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.java.dao.EmpMapper">
+
+      <select id="listEmpAll" resultType="com.java.pojo.Emp">
+         SELECT e.*,t.* FROM emp e Inner join typeemp t
+          on e.typeid=t.empid
+      </select>
+
+        <insert id="addEmp" parameterType="com.java.pojo.Emp">
+          INSERT INTO  emp(listName,email,gender,birth,typeid)
+          VALUES (#{listName},#{email},#{gender},#{birth},#{typeId})
+        </insert>
+
+        <delete id="delete" parameterType="java.lang.Integer">
+         DELETE FROM emp where id=#{id}
+
+        </delete>
+        <update id="upDate" parameterType="com.java.pojo.Emp">
+        UPDATE emp set listName=#{listName},email=#{email},
+        gender=#{gender},typeid=#{typeId},birth=#{birth}
+        WHERE id=#{id}
+        </update>
+        <select id="getEmpByid" parameterType="java.lang.Integer" resultType="com.java.pojo.Emp">
+          SELECT * FROM emp WHERE id=#{id}
+        </select>
+            <select id="listTypeEmpAll" resultType="com.java.pojo.Department">
+                SELECT * FROM typeemp
+        </select>
+</mapper>
