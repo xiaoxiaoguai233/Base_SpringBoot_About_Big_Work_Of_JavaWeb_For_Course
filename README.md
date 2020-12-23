@@ -1,13 +1,12 @@
-# springbootcrud
+# springboot CRUD 脚手架
 
 #### 介绍
-springboot+mysql+mybatis+thymeleaf
-实现的crud
+本项目是湖北师范大学计算机与信息工程学院2018届的期末作业。
+这是本人在大三上学期学习javaweb中，学习成果，本次项目作为学期课程的期末作业，希望能够帮助需要的人。本项目集成了Springboot + Thymeleaf + BootStrap + Shiro + SpringMVC + Mybatis + Mysql等框架实现的crud脚手架。目前有三张表，可对数据库进行增删查改，模糊搜索几个基础操作。
 
 #### 预览
-链接:http://106.52.130.58:8080/
-登录账号:admin  123  and tom 123
-
+链接:http://localhost:8080/
+登录账号:admin 12356
 
 #### 安装教程
 
@@ -17,23 +16,8 @@ springboot+mysql+mybatis+thymeleaf
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+导入数据库与项目后，点击maven状态下的项目运行即可。
 
-#### 参与贡献
+#### 联系作者
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Email：2571312654@qq.com
