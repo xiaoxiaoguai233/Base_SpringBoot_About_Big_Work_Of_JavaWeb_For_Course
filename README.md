@@ -1,4 +1,4 @@
-# springboot CRUD 脚手架
+# 基于 Springboot的 CRUD 脚手架
 
 #### 介绍
 本项目是湖北师范大学计算机与信息工程学院2018届的期末作业。
